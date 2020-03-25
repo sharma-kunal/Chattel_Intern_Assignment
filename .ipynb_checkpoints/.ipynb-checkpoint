@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 4,
+   "execution_count": 1,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -14,7 +14,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
+   "execution_count": 2,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -37,7 +37,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
+   "execution_count": 3,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -55,56 +55,9 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 31,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "    Company Name                     Industry Last Price  Change   %Chg  \\\n",
-      "0    Adani Ports     Transport Infrastructure     229.45   21.65  10.42   \n",
-      "1   Asian Paints                       Paints   1,545.00   46.55   3.11   \n",
-      "2      Axis Bank               Bank - Private     320.45   11.80   3.82   \n",
-      "3     Bajaj Auto  Automobile - 2 & 3 Wheelers   1,990.80   55.25   2.85   \n",
-      "4  Bajaj Finance               Finance - NBFC   2,491.35  225.20   9.94   \n",
-      "\n",
-      "      Mkt Cap  \n",
-      "0   46,618.54  \n",
-      "1  148,196.06  \n",
-      "2   90,413.09  \n",
-      "3   57,607.19  \n",
-      "4  149,901.81  \n"
-     ]
-    }
-   ],
-   "source": [
-    "df = pd.DataFrame(data, columns=['Company Name', 'Industry', 'Last Price', 'Change', '%Chg', 'Mkt Cap'])\n",
-    "print(df.head(5))"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 12,
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "1\n",
-      "2\n",
-      "3\n",
-      "3\n",
-      "3\n",
-      "3\n",
-      "3\n",
-      "3\n",
-      "3\n",
-      "3\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "start_time = time.time()\n",
     "df = get_data()\n",
